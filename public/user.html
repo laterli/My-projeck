@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		*{
+			margin:0;
+			padding:0;
+		}
+		.header{
+			height: 45px;
+			background-color: rgba(0,0,0,0.5)
+		}
+		.header-title-inner{
+			width:1080px;
+			height:45px;
+			margin:0 auto;
+		}
+		.header-title-inner-index{
+			float: left;
+			margin-left:100px;
+			list-style: none;
+			line-height: 45px;
+		}
+		.header-title-inner-index .href{
+			text-decoration: none;
+			color:#000;
+		}
+		.header-val{
+			float: right;
+			height:50px;
+			margin:0 auto;
+		}
+		.header-val li{
+			float: left;
+			list-style:none;
+			line-height: 50px;
+			margin-left: 25px;
+		}
+		.header-val li a{
+			text-decoration: none;
+			color:#000;
+		}
+		.upload{
+			width:70px;
+			height:50px;
+			background-color:#ff6699;
+			border-bottom-left-radius: 15px;
+			border-bottom-right-radius:15px;
+		}
+		.upload .uploadb{
+			display: block;
+			text-align: center;
+			color:#fff;
+		}
+		.banner{
+			width:1080px;
+			margin:0 auto;
+			height:100px;
+			margin-top: 100px;
+		}
+		.title{
+			position:absolute;
+			margin-left:510px;
+			font-size: 35px;
+		}
+		.a{
+			width:380px;
+			position: relative;
+			left:100px;
+			top: 25px;
+		}
+		.b{
+			width:380px;
+			position: relative;
+			top:25px;
+			left:600px;
+		}
+		.center{
+			width:1080px;
+			height:500px;
+			margin:0 auto;
+		}
+		.landing{
+			margin-left:300px;
+		}
+		.userinput{
+			display: block;
+			width:450px;
+			height:40px;
+			font-size: 18px;
+			margin-top:40px;
+		}
+		.usersubmit{
+			width: 200px;
+			height: 50px;
+			background-color: #00a7de;
+			margin-top:50px;
+			font-size: 15px;
+			color:#fff;
+			border:1px solid #000;
+		}
+		.usersubmit-left{
+			margin-left: 50px;
+		}
+		.footer{
+			width:1050px;
+			height:170px;
+			margin:0 auto;
+			margin-top:50px;
+		}
+		.footer ul{
+			text-align:center;
+		}
+		.footer ul li{
+			display: block;
+		}
+		.footer a{
+			text-decoration:none;
+			color:#000;
+		}
+		.footer .me .blog{
+			display: block;
+			text-decoration: none;
+			margin-left:63px;
+		}
+		.footer .skill{
+			margin-top: 20px;
+		}
+	</style>
+</head>
+<body>
+	<div class="header">
+		<div class="header-title-inner">
+			<li class="header-title-inner-index"><a class="href" href="../index.html">主页</a></li>
+			<ul class="header-val">
+				<li><a href="./user.html">登陆</a></li>
+				<li>| &nbsp;&nbsp;&nbsp;&nbsp;<a href="./enroll.html">注册</a></router-link></li>
+				<li class='upload'><a href="" class="uploadb">上传</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="banner">	
+		<hr class="a"><h1 class="title">登陆</h1><hr class='b'>
+	</div>
+	<div class="center">
+		<form action="" class="landing">
+			<input class="userinput" type="text" placeholder="请输入手机号">
+			<input class="userinput" type="password" placeholder="密码">
+			<input class="usersubmit" type="submit" value="登陆">
+			<input class="usersubmit usersubmit-left" type="submit" value="注册">
+		</form>
+	</div>
+	<div class="footer">
+			<ul>
+				<li>关注我：<a href="">微信</a></li>
+				<li class='me'><a href="http://13513477271.club" class="blog" target="_blank">博客</a></li>
+				<li class="skill">技术支持：vue,elementUi等等</li>
+			</ul>	
+		</div>
+</body>
+</html>
